@@ -2,7 +2,7 @@
   "name": "system-bower",
   "version": "0.0.4",
   "authors": [
-    "Matthew Phillips <matthew@matthewphillips.info>"
+    "Bitovi"
   ],
   "description": "Bower plugin for SystemJS and StealJS",
   "main": "bower.js",
@@ -22,10 +22,6 @@
   ],
   "devDependencies": {
     "qunit": "~1.15.0",
-    "lodash": "~2.4.1",
-    "canjs": "bitovi/canjs#minor",
-    "jquery": "~2.1.1",
-    "steal": "bitovi/steal#master",
     "system.js": "~0.10.1"
   },
   "resolutions": {

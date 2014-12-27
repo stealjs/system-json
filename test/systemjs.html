@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../bower_components/qunit/qunit/qunit.css"/>
 </head>
 <body>
-	<h1 id="qunit-header">system-bower SystemJS Test Suite</h1>
+	<h1 id="qunit-header">system-npm SystemJS Test Suite</h1>
 		
 	<h2 id="qunit-banner"></h2>
 	<div id="qunit-testrunner-toolbar"></div>
@@ -21,7 +21,7 @@
 		System.bowerDev = true;
 		QUnit.config.autostart = false;
 
-		System.import("bower.json!bower").then(function(){
+		System.import("json").then(function(){
 			return System.import("test/test");
 		}).then(null, function(err){
 			console.error("Oh no, error!", err);

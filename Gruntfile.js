@@ -7,8 +7,7 @@ module.exports = function(grunt){
 				browsers: ["firefox"]
 			},
 			all: [
-				"test/systemjs.html",
-				"test/steal.html"
+				"test/systemjs.html"
 			]
 		}
 	});
