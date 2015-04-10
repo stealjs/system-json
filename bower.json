@@ -1,16 +1,15 @@
 {
-  "name": "system-bower",
-  "version": "0.0.4",
+  "name": "system-json",
+  "version": "0.0.3",
   "authors": [
     "Bitovi"
   ],
-  "description": "Bower plugin for SystemJS and StealJS",
-  "main": "bower.js",
+  "description": "JSON extension",
+  "main": "json.js",
   "keywords": [
     "systemjs",
     "stealjs",
-    "es6",
-    "bower"
+    "es6"
   ],
   "license": "MIT",
   "ignore": [
